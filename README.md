@@ -41,7 +41,7 @@ docker run -it --rm --name [ANY_NAME] -v /server/path/:/docker/path biagii/scmat
 ```
 
 ## Help
-This docker image is based on scMatch tool developed by Rui Hou [rui.hou@research.uwa.edu.au]. Any doubt about how to use the parameters of the tool can be found in https://github.com/asrhou/scMatch and in the original [paper](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz292/5480299).
+This docker image is based on scMatch tool developed by Rui Hou [rui.hou@research.uwa.edu.au]. Any doubt about how to use the parameters of the tool can be found in https://github.com/asrhou/scMatch and further details in the original [paper](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz292/5480299).
 
 Any questions in Docker image contact the developer by email: biagi@usp.br
 
