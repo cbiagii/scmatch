@@ -37,5 +37,7 @@ RUN mv /opt/scMatch/refDB/7397003?private_link=efd2969ce20fae5c118f /opt/scMatch
 RUN unzip /opt/scMatch/refDB/7397003.zip -d /opt/scMatch/refDB/FANTOM5_SingleR
 RUN rm -rf /opt/scMatch/refDB/7397003.zip
 
+RUN cp /opt/scMatch/refDB/FANTOM5/human_samples_oto.txt /opt/scMatch/refDB/FANTOM5/mouse_samples_oto.txt /opt/scMatch/refDB/FANTOM5/hgmm_samples_oto.txt /opt/scMatch/refDB/FANTOM5_SingleR/
+
 WORKDIR /opt/scMatch
 CMD [ "/bin/bash" ]
